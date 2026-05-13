@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Insurance Explorer</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <div class="card">
+    <h2>Acme Manufacturing — GL Policy</h2>
+
+    <div class="grid">
+      <div>
+        <strong>Policy Number</strong>
+        <p>POL-1001</p>
+      </div>
+
+      <div>
+        <strong>LOB</strong>
+        <p>GL</p>
+      </div>
+
+      <div>
+        <strong>Program Type</strong>
+        <p>Guaranteed Cost</p>
+      </div>
+
+      <div>
+        <strong>Exposure Level</strong>
+        <span id="exposure-pill" data-exposure="Low">
+          Low
+        </span>
+      </div>
+    </div>
+
+    <button id="cycle-btn">
+      Cycle Exposure
+    </button>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
