@@ -1,0 +1,16 @@
+[
+  {
+    "policyNumber": "POL-1001",
+    "accountName": "Acme Manufacturing",
+    "lob": "GL",
+    "programType": "Guaranteed Cost",
+    "premium": 50000,
+    "exposureLevel": "Moderate",
+    "losses": [
+      {
+        "paidAmount": 10000,
+        "reserveAmount": 5000
+      }
+    ]
+  }
+]
